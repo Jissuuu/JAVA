@@ -8,7 +8,7 @@ class RomanToInteger {
         if(n>=1 && n<=15){
             for(int i=0;i<n;i++){
                 if(a[i]!='I' && a[i]!='V' && a[i]!='X' && a[i]!='L' && a[i]!='C' && a[i]!='D' && a[i]!='M'){
-                    System.out.println("'s' must consist of values in ['I', 'V', 'X', 'L', 'C', 'D', 'M'] only");
+                    System.out.println("Input must consist of values in ['I', 'V', 'X', 'L', 'C', 'D', 'M'] only");
                     return -1;
                 }
                 else{
