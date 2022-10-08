@@ -33,10 +33,10 @@ class Account{
         this.air = 0;
     }
     Account(int id, String name, float bal, float air){
-        this.id = id;
+        this.id += id;
         this.name = name;
-        this.bal = bal;
-        this.air = air;
+        this.bal += bal;
+        this.air += air;
     }
     public void getmi(){
         this.mi = (air/1200)*bal;
