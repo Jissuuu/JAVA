@@ -54,18 +54,18 @@ class Account{
         System.out.println((int)bal);
     }
 }
-class Main{
+class Acc{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        int WA,DA;
+        int id,bal,WA,DA;
         char ch;
         float air;
-        int id = in.nextInt();
+        id = in.nextInt();
         String name = in.nextLine();
         name+=in.nextLine();
-        int bal = in.nextInt();
+        bal = in.nextInt();
         air = in.nextFloat();
-        if(bal<=0){
+        if(bal<0){
             System.out.println("Invalid Balance");
         }
         else{
